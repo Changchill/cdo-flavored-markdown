@@ -9,6 +9,7 @@ const restorationRegistration = require('./plugins/restorationRegistration');
 
 const divclass = require('./plugins/divclass');
 const redactedLink = require('./plugins/redactedLink');
+const tip = require('./plugins/tip');
 const tiplink = require('./plugins/tiplink');
 
 module.exports = class CdoFlavoredParser {
@@ -17,6 +18,7 @@ module.exports = class CdoFlavoredParser {
       restorationRegistration,
       divclass,
       redactedLink,
+      tip,
       tiplink
     ];
   };
